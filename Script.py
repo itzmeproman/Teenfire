@@ -44,33 +44,33 @@ Nᴀᴍᴇ - {}"""
 
     I_CUDNT = """<b><i>💢 404 Error / No Results❗
 
-🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>]
+🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/HEROFLiX/894">Click Here</a>]</i></b>"""
+🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
     I_CUD_NT = """<b><i>💢 404 Error / No Results❗
 
-🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>]
+🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/HEROFLiX/894">Click Here</a>]</i></b>"""
+🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
     MVE_NT_FND = """<b><i>💢 404 Error / No Results❗
 
-🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>]
+🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/HEROFLiX/894">Click Here</a>]</i></b>"""
+🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
-    TOP_ALRT_MSG = """🔆彡[ @HEROFLiX ]彡🔆"""
+    TOP_ALRT_MSG = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    MELCOW_ENG = """<b><i>🔆 "HEROFLiX • GROUP" 亗 🔆
+    MELCOW_ENG = """<b><i>🔆 "FHDmovies24x7 • GROUP" 亗 🔆
 •───────────────────• 
-⚜Hey {}, Welcome To HeroFlix • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here....</i></b>"""
+⚜Hey {}, Welcome To FHDmovies24x7 • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here....</i></b>"""
 
-    SHORTLINK_INFO = """🔆彡[ @HEROFLiX ]彡🔆"""
+    SHORTLINK_INFO = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    REQINFO = """🔆彡[ @HEROFLiX ]彡🔆"""
+    REQINFO = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    SINFO = """🔆彡[ @HEROFLiX ]彡🔆"""
+    SINFO = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
     NORSLTS = """
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
@@ -82,7 +82,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- <a href="https://telegram.me/HEROFLiX"><b><i>{file_name}</i></b></a>"""
+ <a href="https://telegram.me/FHDmovies24x7Official"><b><i>{file_name}</i></b></a>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -94,11 +94,11 @@ IMDb Data:
 ⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
     
-    ALL_FILTERS = """🔆彡[ @HEROFLiX ]彡🔆"""
+    ALL_FILTERS = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
     
-    GFILTER_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    GFILTER_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
     
-    FILE_STORE_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    FILE_STORE_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
