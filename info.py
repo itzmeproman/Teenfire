@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27096551'))
 API_HASH = environ.get('API_HASH', '8600379efa072b446f9bc81da4f40786')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6007401862:AAFPjEW7r-Km1qASHZf3vipL4bJ9cvnu77Y')
+BOT_TOKEN = environ.get('BOT_TOKEN', '60074ASHZf3vipL4bJ9cvnu77Y')
 
 DWLD = environ.get("DWLD", 'HeroFlix/2198')
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,7 +42,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jennie:jennie@jennie.txzzrzm.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jennie/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "jennie")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jennie')
 # Others
