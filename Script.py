@@ -2,20 +2,20 @@ class script(object):
     START_TXT = """<i><b>🎃 Helo {}, I'm <a href=https://telegram.me/{}>{}</a></i></b> \n\n<i><b>🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!</i></b>"""
     
     
-    HELP_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    HELP_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    ABOUT_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    ABOUT_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    SOURCE_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
-    MANUELFILTER_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    SOURCE_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
+    MANUELFILTER_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    BUTTON_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    BUTTON_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    AUTOFILTER_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    AUTOFILTER_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    CONNECTION_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
-    EXTRAMOD_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
-    ADMIN_TXT = """🔆彡[ @HEROFLiX ]彡🔆"""
+    CONNECTION_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
+    EXTRAMOD_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
+    ADMIN_TXT = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
     STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
@@ -32,8 +32,8 @@ Aᴅᴅᴇᴅ Bʏ - {}"""
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """🔆 Honey, It's Not For You❗
-🔆 हनी, ये तुम्हारे लिए नहीं है❗"""
+    ALRT_TXT = """🔆 It's Not For You❗
+🔆 ये तुम्हारे लिए नहीं है❗"""
 
     OLD_ALRT_TXT = """ʜᴇʏ {},
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
