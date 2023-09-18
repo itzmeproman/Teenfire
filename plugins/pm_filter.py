@@ -67,7 +67,7 @@ async def give_filter(client, message):
         else:
             return await message.reply_text(
          text=f"<b>ʏᴏᴜ ᴄᴀɴ'ᴛ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ\nᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/HeroFlix/1293")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/FHDmovies24x7")]])
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -265,7 +265,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗",
+                f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗",
                 show_alert=True,
             )
     except:
@@ -321,7 +321,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗",
+                f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗",
                 show_alert=True,
             )
     except:
@@ -457,7 +457,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗",
+                f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗",
                 show_alert=True,
             )
     except:
@@ -521,7 +521,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗",
+                f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗",
                 show_alert=True,
             )
     except:
@@ -673,7 +673,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                await query.answer("🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
@@ -850,27 +850,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                    await query.answer(f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
             elif settings['botpm'] and settings['is_shortlink'] and clicked not in PREMIUM_USER:
                 if clicked == typed:
                     temp.SHORT[clicked] = query.message.chat.id
                     await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=short_{file_id}")
                     return
                 else:
-                    await query.answer(f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                    await query.answer(f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
             elif settings['is_shortlink'] and not settings['botpm'] and clicked not in PREMIUM_USER:
                 if clicked == typed:
                     temp.SHORT[clicked] = query.message.chat.id
                     await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=short_{file_id}")
                     return
                 else:
-                    await query.answer(f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                    await query.answer(f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
             elif settings['botpm'] or clicked in PREMIUM_USER:
                 if clicked == typed:
                     await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                    await query.answer(f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
             else:
                 if clicked == typed:
                     await client.send_cached_media(
@@ -881,13 +881,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                          InlineKeyboardButton('🔆彡[ HEROFLiX ]彡🔆', url=f'https://telegram.me/heroflix'),
+                          InlineKeyboardButton('🔆彡[ FHDmovies24x7 ]彡🔆', url=f'https://telegram.me/FHDmovies24x7'),
                          ]
                             ]
                         )
                     )
                 else:
-                    await query.answer(f"🔆 Honey, It's Not For You❗\n🔆 हनी, ये तुम्हारे लिए नहीं है❗", show_alert=True)
+                    await query.answer(f"🔆 It's Not For You❗\n🔆 ये तुम्हारे लिए नहीं है❗", show_alert=True)
                 await query.answer('Cʜᴇᴄᴋ PM, I ʜᴀᴠᴇ sᴇɴᴛ ғɪʟᴇs ɪɴ PM', show_alert=True)
         except UserIsBlocked:
             await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
@@ -971,7 +971,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                          InlineKeyboardButton('🔆彡[ HEROFLiX ]彡🔆', url=f'https://telegram.me/heroflix'),
+                          InlineKeyboardButton('🔆彡[ FHDmovies24x7 ]彡🔆', url=f'https://telegram.me/FHDmovies24x7'),
                          ]
                 ]
             )
@@ -1208,10 +1208,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://telegram.me/heroflix')
+                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://telegram.me/FHDmovies24x7Official')
                 ],[
-                    InlineKeyboardButton('🗡️ ᴜᴘᴅᴀᴛᴇ 🗡️', url="https://telegram.me/heroflix"),
-                    InlineKeyboardButton('✨ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url="https://telegram.me/heroflix")
+                    InlineKeyboardButton('🗡️ ᴜᴘᴅᴀᴛᴇ 🗡️', url="https://telegram.me/FHDmovies24x7Official"),
+                    InlineKeyboardButton('✨ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url="https://telegram.me/FHDmovies24x7")
                 ],[
                     InlineKeyboardButton('⚡ ʜᴇʟᴘ ⚡', callback_data='help'),
                     InlineKeyboardButton('🤝 ᴀʙᴏᴜᴛ 🤝', callback_data='about')
@@ -1294,7 +1294,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚔️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://telegram.me/heroflix'),
+            InlineKeyboardButton('⚔️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://telegram.me/FHDmovies24x7Official'),
             InlineKeyboardButton('🗡️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('🛡️ Hᴏᴍᴇ', callback_data='start'),
@@ -1485,7 +1485,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("🏃🏻‍♂️ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🤝ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/heroflix")
+                    InlineKeyboardButton("🤝ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/FHDmovies24x7")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1843,7 +1843,7 @@ async def advantage_spell_chok(client, msg):
         reqst_gle = query.replace(" ", "+")
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-        k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/HEROFLiX/894">Click Here</a>]</i></b>')
+        k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>')
         await asyncio.sleep(60)
         await k.delete()    
         return
@@ -1874,7 +1874,7 @@ async def advantage_spell_chok(client, msg):
         reqst_gle = query.replace(" ", "+")
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-        k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/HeroFlix/1371">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/HEROFLiX/894">Click Here</a>]</i></b>')
+        k = await msg.reply('<b><i>⚠ 404 Error, No Results❗ \n\n🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>] \n📮 Please Follow Request Tips \n🔆 Request Tips › [<a href="https://t.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>')
         await asyncio.sleep(60)
         await k.delete()    
         return
