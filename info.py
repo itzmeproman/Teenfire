@@ -46,7 +46,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Premium:212002@premium
 DATABASE_NAME = environ.get('DATABASE_NAME', "Premium")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Premium')
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vipurl.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4a4a33dc6a3d1cfbb60fef4acb5e661fdd4f58c4')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'vipurl.in')
