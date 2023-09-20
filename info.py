@@ -46,7 +46,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Premium:212002@premium
 DATABASE_NAME = environ.get('DATABASE_NAME', "Premium")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Premium')
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', true))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '56cb94ebee3c5ee7d1c84808168f60acdfc50657')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'easysky.in')
