@@ -46,11 +46,11 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Premium:212002@premium
 DATABASE_NAME = environ.get('DATABASE_NAME', "Premium")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Premium')
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '56cb94ebee3c5ee7d1c84808168f60acdfc50657')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'easysky.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '56cb94ebee3c5ee7d1c84808168f60acdfc50657')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '36aa34bb606ee6b7aa3a16caf5a6073068fa7889')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tnshort.net')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '36aa34bb606ee6b7aa3a16caf5a6073068fa7889')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
