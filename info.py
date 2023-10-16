@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '5997447'))
 API_HASH = environ.get('API_HASH', '04fbdff99ed5edff6dfdcc4ef710d04e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6682653076:AAGrB5NO3LbYEQoWG0PlgCWPUa-henTjH34')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6616855312:AAGCb5H-Bu2sbBqO_WOSxcpdScQBVTSTbMk')
 
 DWLD = environ.get("DWLD", 'FHDmovies24x7Official/3536')
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
