@@ -74,7 +74,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7official")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ & ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇ**",
+            text="**Join Our Main Channel And Then Go To The Site Again And Press The Get Link Button Again To Get The File.**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
