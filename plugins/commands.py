@@ -69,9 +69,9 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7official")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://telegram.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7official")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ & ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇ**",
