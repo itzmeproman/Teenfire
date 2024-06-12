@@ -1,15 +1,20 @@
 services:
-  # A Docker web service
   - type: web
     name: ben-url-filter-bot
     env: python
+    region: oregon
+    plan: free
+    branch: main
+    numInstances: 1
     startCommand: python3 bot.py
-    buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/itzmeproman/Teenfire.git # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
-    branch: main # optional (defaults to master)
-    numInstances: 1 # optional (defaults to 1)
+    buildCommand: |
+      apt-get update && apt-get install -y python3-dev build-essential
+      pip3 install -U pip setuptools wheel
+      pip3 install -U -r requirements.txt --prefer-binary
+    repo: https://github.com/itzmeproman/Teenfire.git
     healthCheckPath: /
 
-#End of yaml
+    envVars:
+      - key: ENV_VAR_KEY
+        value: ENV_VAR_VALUE
+      # Add your environment variables here
